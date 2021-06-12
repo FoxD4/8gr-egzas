@@ -9,3 +9,9 @@ Taip pat parašykite funkciją kuri: isikviesdama save pačią atspausdina skai�
 
 console.log(data);
 
+var count = 0;
+for(var i = 0; i < data.length; ++i){
+    if(data[i] == 2)
+        count++;
+        console.log(count);
+}
